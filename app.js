@@ -1,4 +1,4 @@
-etch('https://pokeapi.co/api/v2/pokemon/mewtwo')
+fetch('https://pokeapi.co/api/v2/pokemon/mewtwo')
 .then(response =. {
     if (response.ok) {
         return response.json();
